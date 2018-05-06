@@ -6,5 +6,7 @@ public class VolumeAksi {
         v1.panjang = 7;
         v1.lebar = 5;
         v1.tinggi = 4;
+        
+        v1.cetakInfo();
     }
 }
