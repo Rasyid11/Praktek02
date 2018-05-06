@@ -11,4 +11,10 @@ public class Volume {
         System.out.println("Lebar :   "+tinggi);
         System.out.println("==================");
     }
+    
+    double hitungLuas(){
+        double luas;
+        luas=panjang*lebar*tinggi;
+        return luas;
+    }
 }
