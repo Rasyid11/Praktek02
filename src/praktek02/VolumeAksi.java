@@ -10,5 +10,11 @@ public class VolumeAksi {
         v1.cetakInfo();
         System.out.println("Luas volume = "+v1.hitungLuas());
         v1.cetakLuas();
+        
+        Volume v2 = new Volume();
+        v2.cetakInfo();
+        
+        Volume v3 = new Volume(40,20);
+        v3.cetakInfo();
     }
 }
