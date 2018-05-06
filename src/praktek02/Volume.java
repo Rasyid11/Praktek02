@@ -3,6 +3,12 @@ public class Volume {
     double panjang;
     double lebar;
     double tinggi;
+
+    public Volume() {
+        panjang=7;
+        lebar=8;
+        tinggi=5;
+    }
     
     void cetakInfo(){
         System.out.println("==================");
