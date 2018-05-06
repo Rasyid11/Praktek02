@@ -17,4 +17,8 @@ public class Volume {
         luas=panjang*lebar*tinggi;
         return luas;
     }
+    
+    void cetakLuas(){
+        System.out.println("Luasnya adalah: "+hitungLuas());
+    }
 }
